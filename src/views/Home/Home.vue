@@ -27,7 +27,7 @@ getItems(1);
         <Character :character="item" :detail="false"></Character>
       </v-col>
     </v-row>
-    <div class="text-center pt-3">
+    <div v-else class="text-center pt-3">
       <v-progress-circular
         :size="100"
         :width="7"

@@ -9,14 +9,15 @@ const props = defineProps<{
 
 <template>
   <v-card
-    class="mx-auto my-12"
+    class="my-12"
     :color="props.character.isFavorite ? '#F9A825' : '#000'"
     theme="dark"
     outlined
   >
     <v-img
+      class="white--text align-center"
+      :height="detail ? 600 : 400"
       cover
-      :height="detail ? 300 : 250"
       :src="props.character.image"
     ></v-img>
 

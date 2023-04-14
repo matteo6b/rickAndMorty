@@ -23,7 +23,7 @@ getItem(Number(id));
 <template>
   <v-container>
     <v-row align="center" justify="center">
-      <v-col cols="12" md="6">
+      <v-col cols="12" >
         <v-card>
           <v-toolbar color="primary" dark flat>
             <v-btn @click="$router.back" icon="mdi-arrow-left"></v-btn>
